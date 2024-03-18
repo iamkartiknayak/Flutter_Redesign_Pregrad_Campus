@@ -35,9 +35,8 @@ flutter run
 <img src="./screenshots/home_light.jpg" alt="Example Image" width="250">&nbsp;&nbsp;&nbsp;
 <img src="./screenshots/home_dark.jpg" alt="Example Image" width="250">&nbsp;&nbsp;&nbsp;
 <img src="./screenshots/batches.jpg" alt="Example Image" width="250">&nbsp;&nbsp;&nbsp;
-<img src="./screenshots/store.jpg" alt="Example Image" width="250"><br><br>
-
-<img src="./screenshots/chats.jpg" alt="Example Image" width="250">&nbsp;&nbsp;&nbsp;
+<img src="./screenshots/store.jpg" alt="Example Image" width="250">&nbsp;&nbsp;&nbsp;
+<img src="./screenshots/chats.jpg" alt="Example Image" width="250"> &nbsp;&nbsp;&nbsp;
 <img src="./screenshots/profile.jpg" alt="Example Image" width="250"><br><br>
 
 
