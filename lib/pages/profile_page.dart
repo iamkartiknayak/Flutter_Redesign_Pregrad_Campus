@@ -94,7 +94,7 @@ class ProfilePage extends StatelessWidget {
                 const ProfilePageTile(
                   icon: CupertinoIcons.shield,
                   title: 'Privacy Policy',
-                  subtitle: 'Access free study materials',
+                  subtitle: 'Learn how we collect and process data',
                 ),
               ],
             ),
