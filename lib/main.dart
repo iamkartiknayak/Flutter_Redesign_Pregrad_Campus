@@ -1,9 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import './theme.dart';
 import './bottom_navbar.dart';
 
-void main() => runApp(const PregradCampusApp());
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setSystemUIOverlayStyle(
+    const SystemUiOverlayStyle(
+      statusBarColor: Colors.black,
+      statusBarIconBrightness: Brightness.light,
+    ),
+  );
+  runApp(const PregradCampusApp());
+}
 
 class PregradCampusApp extends StatelessWidget {
   const PregradCampusApp({super.key});
