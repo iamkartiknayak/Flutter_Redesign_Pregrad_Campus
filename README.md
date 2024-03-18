@@ -32,7 +32,8 @@ flutter run
 ```
 ### Screenshots
 
-<img src="./screenshots/home.jpg" alt="Example Image" width="250">&nbsp;&nbsp;&nbsp;
+<img src="./screenshots/home_light.jpg" alt="Example Image" width="250">&nbsp;&nbsp;&nbsp;
+<img src="./screenshots/home_dark.jpg" alt="Example Image" width="250">&nbsp;&nbsp;&nbsp;
 <img src="./screenshots/batches.jpg" alt="Example Image" width="250">&nbsp;&nbsp;&nbsp;
 <img src="./screenshots/store.jpg" alt="Example Image" width="250"><br><br>
 
