@@ -107,7 +107,7 @@ class HomePage extends StatelessWidget {
                 ),
                 _buildScheduleCards(),
                 const SizedBox(height: 30),
-                _buildFeedbackSection()
+                _buildFeedbackSection(context)
               ],
             ),
           ),
@@ -155,7 +155,7 @@ class HomePage extends StatelessWidget {
     );
   }
 
-  Row _buildFeedbackSection() {
+  Row _buildFeedbackSection(BuildContext context) {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -171,12 +171,10 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 4),
-              const Text(
+              Text(
                 'Give your tuto a smile by sharing your experience',
-                style: TextStyle(
-                  color: Colors.grey,
-                  fontSize: 13,
-                ),
+                style: Theme.of(context).textTheme.bodySmall,
+                maxLines: 3,
               ),
               const SizedBox(height: 12),
               InkWell(
