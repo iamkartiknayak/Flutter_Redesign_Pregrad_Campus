@@ -12,11 +12,11 @@ This project is a partial visual redesign of the Pregrad Campus app using Flutte
 ### Installation
 #### Clone the repository using the following command:
 ```bash    
-git clone https://github.com/iamkartiknayak/Flutter_Redesign_Pregrad_Campus_App.git
+git clone https://github.com/iamkartiknayak/pregrad-campus-app-android-redesign.git
 ```
 #### Rename the project directory before running flutter commands
 ```bash
-mv Flutter_Redesign_Pregrad_Campus_App pregrad_campus_app
+mv pregrad-campus-app-android-redesign pregrad_campus_app
 ```
 #### Navigate to the project directory:
 ```bash 
